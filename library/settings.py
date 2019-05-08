@@ -31,8 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'mpesa_api.core',
-    'mpesa_api.util',
+    'mpesapy',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -120,3 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+
+MPESA_BUY_USER = "put_your_buy_goods_user_here"
+MPESA_BUY_PASS = "put_your_buy_goods_password_here"
+MPESA_PAYBILL_USER = "put_your_paybill_user_here"
+MPESA_PAYBILL_PASS = "put_paybill_password_here"
