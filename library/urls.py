@@ -18,4 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('mpesa/', include('mpesa_api.core.urls', 'mpesa')),
 ]
